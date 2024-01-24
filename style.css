@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+#myH1{
+	font-size: 80px;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 20px;
+	text-shadow: 0px 2px 5px #ccc;
+}
+.cell{
+	width: 115px;
+	height: 115px;
+	border: 2px solid;
+	box-shadow: 0 0 0 2px;
+	line-height: 115px ;
+	font-size: 70px;
+	cursor: pointer;
+}
+#box{
+	 font-family: "Permanent Marker", cursive;
+	 text-align: center;
+}
+#cell-box{
+	display: grid;
+	grid-template-columns: repeat(3, auto);
+	width: 345px;
+	margin: auto;
+}
+#restartBtn{
+	padding: 1px 30px;
+	font-size: 30px;
+	font-family: cursive;
+	border: none;
+	border-radius: 10px;
+	color: white;
+	box-shadow: 2px 2px 7px black;
+	cursor: pointer;
+}
+button{
+	background-color: tomato;
+}
+button:hover{
+	background-color: greenyellow;
+}
+button:active{
+	background-color: lightgreen;
+}
